@@ -1,0 +1,125 @@
+09/18.08:35:28~/L/C/E/advanced-eos-examples (master|✚1…) $ npm t --verbose
+npm info it worked if it ends with ok
+npm verb cli [ '/usr/local/Cellar/node@8/8.16.0/bin/node',
+npm verb cli   '/usr/local/opt/node@8/bin/npm',
+npm verb cli   't',
+npm verb cli   '--verbose' ]
+npm info using npm@6.4.1
+npm info using node@v8.16.0
+npm verb run-script [ 'pretest', 'test', 'posttest' ]
+npm info lifecycle advanced-eos-examples@2.0.0~pretest: advanced-eos-examples@2.0.0
+npm info lifecycle advanced-eos-examples@2.0.0~test: advanced-eos-examples@2.0.0
+
+> advanced-eos-examples@2.0.0 test /Users/dallasjohnson/Local Documents/Code/EOSIO/advanced-eos-examples
+> lamington test
+
+✔ Starting EOS docker container
+✔ EOS is ready
+                                        
+==================================================== 
+                                                     
+      EOS running, admin account created.            
+                                                     
+      RPC: http://localhost:8888                     
+	  Docker Container: lamington                    
+                                                     
+==================================================== 
+
+BUILDING 11 SMART CONTRACTS
+
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+✔ Compiled contract
+✔ Generated type definitions
+
+
+  hashes
+    ✓ should successfully call hash
+
+  singletons
+    ✓ should have correct defaults
+    ✓ should allow setting of closed (1262ms)
+    ✓ should allow setting of chars
+
+  timeline
+    ✓ should have correct defaults
+    ✓ should allow a tweet to be posted
+    ✓ should successfully call get
+    ✓ should successfully call inventory (1235ms)
+
+  uniqueness
+    ✓ should have correct defaults
+    ✓ should allow a single item to be added
+    ✓ should allow multiple items to be added
+
+  vectors
+    ✓ should have correct defaults (1012ms)
+    ✓ should allow a player to be added
+    ✓ should allow a player to have an item (1923ms)
+    ✓ should allow a player to have multiple items (2062ms)
+
+  indexes
+    ✓ should have correct defaults (1016ms)
+    ✓ should allow a player to be added
+    ✓ should allow an item to be added (1871ms)
+
+  scope
+    ✓ should have correct defaults (1020ms)
+    ✓ should allow a player to be added
+    ✓ should allow an item to be added (2278ms)
+
+  timeline
+    ✓ should have correct defaults (1022ms)
+    ✓ should not allow a user to publish if they're not approved
+    ✓ should allow a user to publish once they're approved
+
+  user
+    ✓ should have correct defaults
+    ✓ should allow a user to be added
+    ✓ should allow a user to be approved (1359ms)
+    ✓ should allow a user to be approved then un-approved (1991ms)
+    ✓ should allow a user to be flagged (1345ms)
+    ✓ should allow a user to be flagged then un-flagged (1990ms)
+
+  payable
+Created account:
+Name: eosio.token
+Private Key: 5J9xwFTftVaKC5ShvQZ2sE1CTw6dtHKBogHd7Eb94kMc6d9SVMh
+Setting up account
+Success
+    ✓ should create tokens
+    ✓ should issue tokens to payable
+    ✓ should allocate tokens to user
+    ✓ should contain no wallet prior to transfer
+    ✓ should capture a token transfer to payable
+
+
+  35 passing (51s)
+
+✔ Stopped EOS Docker Container
+npm verb lifecycle advanced-eos-examples@2.0.0~test: unsafe-perm in lifecycle true
+npm verb lifecycle advanced-eos-examples@2.0.0~test: PATH: /usr/local/Cellar/node@8/8.16.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/dallasjohnson/Local Documents/Code/EOSIO/advanced-eos-examples/node_modules/.bin:/usr/local/opt/node@8/bin:/Users/dallasjohnson/.fastlane/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/go/bin:/usr/local/MacGPG2/bin
+npm verb lifecycle advanced-eos-examples@2.0.0~test: CWD: /Users/dallasjohnson/Local Documents/Code/EOSIO/advanced-eos-examples
+npm info lifecycle advanced-eos-examples@2.0.0~posttest: advanced-eos-examples@2.0.0
+npm verb exit [ 0, true ]
+npm timing npm Completed in 114685ms
+npm info ok 
+09/18.08:44:25~/L/C/E/advanced-eos-examples (master|✚1…) $ 
